@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageVersion>1.0</PackageVersion>
+    <PackageId>Scalz.Utility.Templates</PackageId>
+    <Title>Custom .NET Templates</Title>
+    <Authors>Mikkel O. Laursen</Authors>
+    <Description>Handy templates for creating scaffolded .NET projects.</Description>
+    <PackageTags>dotnet-new;templates;mikkellaursen</PackageTags>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**;templates\**\.idea\**;templates\**\.vscode\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

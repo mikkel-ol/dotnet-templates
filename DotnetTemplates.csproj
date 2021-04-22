@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.3</PackageVersion>
+    <PackageVersion>1.3.0</PackageVersion>
     <PackageId>Scalz.Utility.Templates</PackageId>
     <Title>Custom .NET Templates</Title>
     <Authors>Mikkel O. Laursen</Authors>

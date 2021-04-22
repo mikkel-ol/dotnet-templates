@@ -7,9 +7,9 @@ using MyProject.API.Configurations;
 namespace MyProject.API.Controllers
 {
     /// <summary>
-    ///     Base API controller. Enforces authentication on all controllers and setup route definition.
+    ///     Base API controller. (Can) enforces authentication on all controllers and setup route definition.
     /// </summary>
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("api")]
     public abstract class ApiController : ControllerBase

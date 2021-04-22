@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Mikkel O. Laursen",
+  "classifications": ["API", "ASP.NET"],
+  "identity": "MikkelLaursen.DotnetTemplates.RESTfulAPI",
+  "name": "Basic RESTful API",
+  "shortName": "rest",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "MyProject",
+  "symbols": {
+    "name": {
+      "type": "parameter",
+      "datatype": "text",
+      "replaces": "MyProject",
+      "fileRename": "MyProject",
+      "isRequired": false,
+      "defaultValue": "Project"
+    }
+  },
+  "primaryOutputs": [
+    {
+      "path": "MyProject.API"
+    },
+    {
+      "path": "MyProject.Application"
+    },
+    {
+      "path": "MyProject.Domain"
+    },
+    {
+      "path": "MyProject.Infrastructure"
+    },
+    {
+      "path": "MyProject.IntegrationTests"
+    },
+    {
+      "path": "MyProject.Persistence"
+    },
+    {
+      "path": "MyProject.UnitTests"
+    }
+  ],
+  "postActions": [
+    {
+      "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+      "description": "Restore NuGet packages.",
+      "manualInstructions": [
+        {
+          "text": "Run 'dotnet restore'"
+        }
+      ],
+      "continueOnError": false
+    },
+    {
+      "actionId": "D396686C-DE0E-4DE6-906D-291CD29FC5DE",
+      "description": "Add project to solution",
+      "args": {
+        "primaryOutputIndexes": "0"
+      },
+      "manualInstructions": [],
+      "continueOnError": true
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 using System;
 using System.IO;
 using System.Reflection;
-using MyProject.Infrastructure.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
+using MyProject.Infrastructure.Extensions;
 using Swashbuckle.AspNetCore.SwaggerUI;
 
 namespace MyProject.API.Configurations

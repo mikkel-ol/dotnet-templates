@@ -1,8 +1,8 @@
 using System;
 using AutoMapper;
+using Microsoft.Data.Sqlite;
 using MyProject.API;
 using MyProject.Application;
-using Microsoft.Data.Sqlite;
 using Xunit;
 
 namespace MyProject.UnitTests

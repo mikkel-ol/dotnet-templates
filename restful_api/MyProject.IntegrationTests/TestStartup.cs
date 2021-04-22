@@ -1,12 +1,6 @@
-using MyProject.API;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Data.Sqlite;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Serilog;
-using Serilog.Events;
-using Serilog.Sinks.SystemConsole.Themes;
+using MyProject.API;
 
 namespace MyProject.IntegrationTests
 {

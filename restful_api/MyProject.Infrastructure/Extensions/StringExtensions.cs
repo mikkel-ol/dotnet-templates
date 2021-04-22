@@ -1,4 +1,3 @@
-using System.Globalization;
 using System.Linq;
 
 namespace MyProject.Infrastructure.Extensions

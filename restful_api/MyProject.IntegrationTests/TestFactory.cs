@@ -1,7 +1,7 @@
-using MyProject.API;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.Hosting;
+using MyProject.API;
 using Serilog;
 
 namespace MyProject.IntegrationTests

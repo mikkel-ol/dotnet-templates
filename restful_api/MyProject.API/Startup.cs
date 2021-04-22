@@ -12,7 +12,6 @@ namespace MyProject.API
     public class Startup
     {
         protected readonly IHostEnvironment env;
-        public IConfiguration Configuration { get; }
 
         public Startup(IHostEnvironment env)
         {
@@ -42,6 +41,8 @@ namespace MyProject.API
 
             Configuration = builder.Build();
         }
+
+        public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)
         {

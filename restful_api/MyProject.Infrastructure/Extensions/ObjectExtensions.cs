@@ -39,7 +39,7 @@ namespace MyProject.Infrastructure.Extensions
         {
             var doc = new XmlDocument();
 
-            using(XmlWriter writer = doc.CreateNavigator().AppendChild())
+            using (var writer = doc.CreateNavigator().AppendChild())
             {
                 new XmlSerializer(o.GetType()).Serialize(writer, o);
             }

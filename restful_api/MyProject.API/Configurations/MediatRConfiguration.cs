@@ -1,9 +1,9 @@
 using System.Reflection;
-using MyProject.Application;
-using MyProject.Infrastructure.Pipelines;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MyProject.Application;
+using MyProject.Infrastructure.Pipelines;
 
 namespace MyProject.API.Configurations
 {

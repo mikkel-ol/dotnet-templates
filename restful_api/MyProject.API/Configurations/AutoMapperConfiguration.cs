@@ -1,7 +1,7 @@
 using AutoMapper;
-using MyProject.Application;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MyProject.Application;
 
 namespace MyProject.API.Configurations
 {

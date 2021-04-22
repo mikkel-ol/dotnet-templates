@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Data;
 using AutoMapper;
-using MyProject.Persistence;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
+using MyProject.Persistence;
 using Xunit;
 
 namespace MyProject.UnitTests

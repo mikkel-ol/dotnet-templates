@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,7 +17,6 @@ namespace MyProject.Persistence.Seed
 
                 if (createAdminUser)
                 {
-                    
                 }
             }
         }

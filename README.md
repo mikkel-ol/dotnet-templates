@@ -1,1 +1,1 @@
-# Your amazing RESTful API project
+# .NET Custom templates

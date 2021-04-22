@@ -9,7 +9,6 @@
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "MyProject",
   "symbols": {
     "name": {
       "type": "parameter",

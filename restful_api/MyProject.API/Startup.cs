@@ -105,7 +105,7 @@ namespace MyProject.API
 
         protected virtual void AddOptions(IServiceCollection services)
         {
-            // Add custom option objects herez
+            // Add custom option objects here
         }
     }
 }
